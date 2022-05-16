@@ -30,7 +30,7 @@ tower= new Tower (150,350,160,310);
 function draw() {
   image(backgroundImg,0,0,1200,600)
   Engine.update(engine);
-  Matter.Body.setVelocity(baquito.body,{x:-0.9, y:0})
+  Matter.Body.setVelocity(baquito.body,{x:-0.9, y:0}) // BARQUITO, se te olvido la R 
 cannon.display();
 bala.display();
 tower.display();
